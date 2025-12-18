@@ -1,20 +1,49 @@
-*{
-    font-size: 38px;
-    font-weight: 500;
-}
-h3{
-    color:blue
+body{ 
+    font-family:'ariel',sans-serrif;
+    background-color: #0D1117;
+    cursor: #C9D1D9;
 
 }
-h4{
-    color:palevioletred
+
+h1{
+    color: #58A6FF;
+
 }
-myclass{
-    color:darkorange
+
+a{
+    color: #8B949E;
+    text-decoration:none;
+
 }
-#myid{
-    color:mediumpurple
+
+a:hover {
+    color: #1f6feb;
+
 }
-h5,p{
-    color:maroon
+
+ul > li {
+    font-weight: bold;
+}
+h1+p {
+    background-color: #161B22;
+   Padding:10px;
+border-radius: 5px;
+
+}
+ ul li:hover {
+    color: #4F8CC9;
+   
+ }
+p:not(:first-of-type) {
+  text-decoration: underline;  
+}
+ul li::before{
+    content:"🚀 "
+}
+a::after{
+    content:" 🌌"
+}
+p::first-letter{
+    font-size: 200%;
+    color:#FF7B72;
 }
